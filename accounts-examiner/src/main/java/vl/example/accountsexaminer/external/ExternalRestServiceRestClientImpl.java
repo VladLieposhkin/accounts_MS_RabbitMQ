@@ -18,7 +18,6 @@ public class ExternalRestServiceRestClientImpl implements ExternalRestServiceRes
 
     private final RestClient restClient;
 
-
     @Override
     public List<CoinExternalDTO> getExternalCoinsData(List<CoinDTO> coins) {
 

@@ -11,6 +11,12 @@ spring:
     password: accounts
     driverClassName: org.postgresql.Driver
 
+  rabbitmq:
+    host: host.docker.internal
+    port: 5672
+    username: guest
+    password: guest
+
   flyway:
     schemas:
       - public
@@ -22,8 +28,3 @@ spring:
       ddl-auto: validate
 #    show-sql: true
 
-  rabbitmq:
-    host: host.docker.internal
-    port: 5672
-    username: guest
-    password: guest
